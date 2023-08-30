@@ -8,6 +8,7 @@ let compr = (a, b) => {
    }
 };
 console.log(compr(8, 4));
+
 // Задание 2
 
 let inp = Number(prompt("Введите число"));
@@ -23,6 +24,7 @@ let even = (result) => {
 console.log(even());
 
 // Задание 3
+
 let exp = (a) => {
    console.log(a ** 2);
 };
@@ -51,6 +53,7 @@ function control() {
 control();
 
 // Задание 5
+
 function mult(num1, num2) {
 
    if (isNaN(num1) || isNaN(num2)) {
@@ -60,6 +63,7 @@ function mult(num1, num2) {
    }
 }
 mult(5, 8);
+
 // Задание 6
 
 function cube(num) {
@@ -75,7 +79,9 @@ function cube(num) {
 cube()
 
 // Задание 7
+
 let Pi = Number(3.14);
+
 let circle1 = {
    radius: 8,
    getArea() {
@@ -87,6 +93,7 @@ let circle1 = {
       return perimeter;
    },
 };
+
 let circle2 = {
    radius: 5,
    getArea() {
@@ -98,6 +105,7 @@ let circle2 = {
       return perimeter;
    },
 };
+
 console.log(circle1.getArea());
 console.log(circle1.getPerimeter());
 console.log(circle2.getArea());
